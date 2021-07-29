@@ -45,6 +45,19 @@ import {
 } from '@adobe/react-spectrum';
 
 
+let sections = [
+  {name: 'Animals', children: [
+    {name: 'Aardvark'},
+    {name: 'Kangaroo'},
+    {name: 'Snake'}
+  ]},
+  {name: 'People', children: [
+    {name: 'Danni'},
+    {name: 'Devon'},
+    {name: 'Ross'}
+  ]}
+];
+
 export default function Home() {
   return (
     <SSRProvider>

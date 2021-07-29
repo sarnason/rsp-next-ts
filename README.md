@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) v11 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is to demonstrate a build problem.
+This is a [Next.js](https://nextjs.org/) v11 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is to demonstrate a build problem with the NIGHLY BUILD.
 
 
 ## How this test was made
@@ -172,6 +172,10 @@ Read more: https://nextjs.org/docs/messages/css-npm
 Location: node_modules/@adobe/react-spectrum/node_modules/@react-spectrum/provider/dist/module.js
 This error occurred during the build process and can only be dismissed by fixing the error.
 `
+
+## The fix
+
+Removing the nighly build of React Spectrum and reinstalling without defining a version.
 
 
 ## Running it...
